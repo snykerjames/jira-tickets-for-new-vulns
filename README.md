@@ -39,6 +39,8 @@ Use the binaries from [the release page](https://github.com/snyk-tech-services/j
     -debug=<true|false>                                                 // Optional. enable debug mode
     -ifUpgradeAvailableOnly=<true|false>                                // Optional. create ticket only for upgradable issues
 ```
+### Unsupported projects types
+Infrastructure As Code projects are currently not supported by the tool
 
 ### Priority is Severity
 Option to get the JIRA ticket priority set based on issue severity.
