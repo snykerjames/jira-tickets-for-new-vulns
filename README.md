@@ -40,6 +40,8 @@ Use the binaries from [the release page](https://github.com/snyk-tech-services/j
     -ifUpgradeAvailableOnly=<true|false>                                // Optional. create ticket only for upgradable issues
     -configFile                                                         // Optional. path the jira.yaml if not root 
 ```
+### Unsupported projects types
+Infrastructure As Code projects are currently not supported by the tool
 
 ### Priority is Severity
 Option to get the JIRA ticket priority set based on issue severity.
